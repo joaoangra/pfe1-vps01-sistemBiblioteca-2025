@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/livro.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/carrinho.css">
+    <title>BlibioTec</title>
+</head>
+
+<body>
+    <header>
+        <h1>Locação de Livro</h1>
+        <nav>
+            <button onclick="window.location.href='./home.html'">Voltar</button>
+        </nav>
+        <div class="container">
+            <h1>Cadastro de Locação de Livro</h1>
+            <form>
+              <label for="nome">Nome do Cliente</label>
+              <input type="text" id="nome" name="nome" required>
+        
+              <label for="cpf">CPF</label>
+              <input type="text" id="cpf" name="cpf" maxlength="11" pattern="\d{11}" required oninput="this.value = this.value.replace(/\D/g, '')"/>
+              <small id="cpfErro" class="erro"></small>
+        
+              <label for="data-inicio">Data de Início</label>
+              <input type="date" id="data-inicio" name="datainicio" required>
+        
+              <label for="data-devolucao">Data de Devolução</label>
+              <input type="date" id="data-devolucao" name="datadevolucao" required>
+        
+              <label for="carro">Livro</label>
+              <select id="livro" name="livro" required>
+                <option value="">Selecione um livro</option>
+              </select>
+        
+              <button type="submit">Cadastrar</button>
+            </form>
+          </div>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Data de Inicio</th>
+                    <th>Data de Devolução</th>
+                    <th>Livro</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+<!-- Cadastro de livros aparecerão aqui! -->
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <h2>By Pedro Duarte</h2>
+    </footer>
+</body>
+<script src="../scripts/carrinho.js"></script>
+</html>

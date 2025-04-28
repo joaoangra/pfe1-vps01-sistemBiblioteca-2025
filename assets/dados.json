@@ -1,92 +1,102 @@
 [
     {
-      "id": 1,
-      "titulo": "Dom Quixote",
-      "autor": "Miguel de Cervantes",
-      "ano": 1605,
-      "editora": "Editora Clássicos",
-      "genero": "Romance",
-      "descricao": "Um romance satírico sobre um fidalgo que acredita ser um cavaleiro andante."
+        "id": 1,
+        "nome": "Dom Quixote",
+        "descricao": "Um romance satírico sobre um fidalgo que acredita ser um cavaleiro andante.",
+        "ano": 1605,
+        "autor": "Miguel de Cervantes",
+        "editora": "Editora Clássicos",
+        "genero": "Romance",
+        "imagem": "data:image/jpeg;base64,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"
     },
     {
-      "id": 2,
-      "titulo": "1984",
-      "autor": "George Orwell",
-      "ano": 1949,
-      "editora": "Companhia das Letras",
-      "genero": "Distopia",
-      "descricao": "Um retrato sombrio de um futuro totalitário."
+        "id": 2,
+        "nome": "1984",
+        "descricao": "Um retrato sombrio de um futuro totalitário.",
+        "ano": 1949,
+        "autor": "George Orwell",
+        "editora": "Companhia das Letras",
+        "genero": "Distopia",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYGCAhLsV77DFs1dIGiib32eDSxp5YC0_ISw&s"
     },
     {
-      "id": 3,
-      "titulo": "A Revolução dos Bichos",
-      "autor": "George Orwell",
-      "ano": 1945,
-      "editora": "Editora B",
-      "genero": "Fábula política",
-      "descricao": "Uma alegoria sobre o totalitarismo disfarçado de fábula animal."
+        "id": 3,
+        "nome": "A Revolução dos Bichos",
+        "descricao": "Uma alegoria sobre o totalitarismo disfarçado de fábula animal.",
+        "ano": 1945,
+        "autor": "George Orwell",
+        "editora": "Fábula política",
+        "genero": "Fábula política",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp2QlSpSUe1Z9Wic8t6dEjmFi4OQW-8ThvOA&s"
     },
     {
-      "id": 4,
-      "titulo": "O Pequeno Príncipe",
-      "autor": "Antoine de Saint-Exupéry",
-      "ano": 1943,
-      "editora": "Agir",
-      "genero": "Infantil/Filosófico",
-      "descricao": "Um conto filosófico com críticas sociais sutis."
+        "id": 4,
+        "nome": "O Pequeno Príncipe",
+        "descricao": "Um conto filosófico com críticas sociais sutis.",
+        "ano": 1943,
+        "autor": "Antoine de Saint-Exupéry",
+        "editora": "Agir",
+        "genero": "Infantil/Filosófico",
+        "imagem": "https://m.media-amazon.com/images/I/81TmOZIXvzL._AC_UF1000,1000_QL80_.jpg"
     },
     {
-      "id": 5,
-      "titulo": "Orgulho e Preconceito",
-      "autor": "Jane Austen",
-      "ano": 1813,
-      "editora": "Penguin",
-      "genero": "Romance",
-      "descricao": "A história de Elizabeth Bennet enquanto lida com questões de classe e amor."
+        "id": 5,
+        "nome": "Orgulho e Preconceito",
+        "descricao": "A história de Elizabeth Bennet enquanto lida com questões de classe e amor.",
+        "ano": 1813,
+        "autor": "Jane Austen",
+        "editora": "Penguin",
+        "genero": "Romance",
+        "imagem": "https://m.media-amazon.com/images/I/71Xta4Nf7uL._AC_UF1000,1000_QL80_.jpg"
     },
     {
-      "id": 6,
-      "titulo": "O Hobbit",
-      "autor": "J.R.R. Tolkien",
-      "ano": 1937,
-      "editora": "HarperCollins",
-      "genero": "Fantasia",
-      "descricao": "A jornada de Bilbo Bolseiro em uma aventura pela Terra Média."
+        "id": 6,
+        "nome": "O Hobbit",
+        "descricao": "A jornada de Bilbo Bolseiro em uma aventura pela Terra Média.",
+        "ano": 1937,
+        "autor": "J.R.R. Tolkien",
+        "editora": "HarperCollins",
+        "genero": "Fantasia",
+        "imagem": "https://livrariadorasta.com.br/image/cache/data/api/produtos/15211-515x800.jpg?1675964395"
     },
     {
-      "id": 7,
-      "titulo": "Moby Dick",
-      "autor": "Herman Melville",
-      "ano": 1851,
-      "editora": "Nova Fronteira",
-      "genero": "Aventura",
-      "descricao": "A obsessiva caçada do capitão Ahab pela baleia branca."
+        "id": 7,
+        "nome": "Moby Dick",
+        "descricao": "A obsessiva caçada do capitão Ahab pela baleia branca.",
+        "ano": 1851,
+        "autor":  "Herman Melville",
+        "editora": "Nova Fronteira",
+        "genero": "Aventura",
+        "imagem": "https://m.media-amazon.com/images/I/712mdW4zCcL._AC_UF1000,1000_QL80_.jpg"
     },
     {
-      "id": 8,
-      "titulo": "A Metamorfose",
-      "autor": "Franz Kafka",
-      "ano": 1915,
-      "editora": "L&PM",
-      "genero": "Ficção filosófica",
-      "descricao": "Um homem acorda transformado em um inseto gigante."
+        "id": 8,
+        "nome": "A Metamorfose",
+        "descricao": "Um homem acorda transformado em um inseto gigante.",
+        "ano": 1915,
+        "autor": "Franz Kafka",
+        "editora": "L&PM",
+        "genero": "Ficção filosófica",
+        "imagem": "https://m.media-amazon.com/images/I/71mFnG3Bn3L._AC_UF1000,1000_QL80_.jpg"
     },
     {
-      "id": 9,
-      "titulo": "Grande Sertão: Veredas",
-      "autor": "João Guimarães Rosa",
-      "ano": 1956,
-      "editora": "Nova Aguilar",
-      "genero": "Romance",
-      "descricao": "Um clássico da literatura brasileira sobre o sertão e seus conflitos."
+        "id": 9,
+        "nome": "Grande Sertão: Veredas",
+        "descricao": "Um clássico da literatura brasileira sobre o sertão e seus conflitos.",
+        "ano": 1956,
+        "autor":  "João Guimarães Rosa",
+        "editora": "Nova Aguilar",
+        "genero": "Romance",
+        "imagem": "https://m.media-amazon.com/images/I/71bh8SB8R0L._AC_UF1000,1000_QL80_.jpg"
     },
     {
-      "id": 10,
-      "titulo": "Harry Potter e a Pedra Filosofal",
-      "autor": "J.K. Rowling",
-      "ano": 1997,
-      "editora": "Rocco",
-      "genero": "Fantasia",
-      "descricao": "O começo da jornada de um jovem bruxo em Hogwarts."
+        "id": 10,
+        "nome": "Harry Potter e a Pedra Filosofal",
+        "descricao": "O começo da jornada de um jovem bruxo em Hogwarts.",
+        "ano": 1997,
+        "autor": "J.K. Rowling",
+        "editora": "Rocco",
+        "genero": "Fantasia",
+        "imagem": "https://m.media-amazon.com/images/I/61jgm6ooXzL._AC_UF1000,1000_QL80_.jpg"
     }
-  ]
+]
